@@ -8,17 +8,17 @@ public class Main {
         p.product(1,2);
         p.product(3,4,5);
     }
+    public static class Product{
+        public int product(int x, int y) {
+            return x*y;
+        }
 
-}
-class Product{
-    public int product(int x, int y) {
-        return 0;
+        public int product(int x, int y, int z) {
+            return x*y*z;
+        }
+        public double product(double x, double y) {
+            return x*y;
+        }
     }
 
-    public int product(int x, int y, int z) {
-        return 0;
-    }
-    public double product(double x, double y) {
-        return 0;
-    }
 }
